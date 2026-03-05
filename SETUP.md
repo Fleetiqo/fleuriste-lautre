@@ -12,9 +12,9 @@ cd fleuriste-lautre
 git init
 git add .
 git commit -m "Initial commit"
-git branch -M master
+git branch -M main
 git remote add origin https://github.com/Fleetiqo/fleuriste-lautre.git
-git push -u origin master
+git push -u origin main
 ```
 
 ## 3. Enable GitHub Pages
@@ -23,5 +23,5 @@ git push -u origin master
 3. Save
 
 ## 4. Done!
-The workflow will auto-deploy on every push to master.
+The workflow will auto-deploy on every push to main.
 Site will be live at: https://fleetiqo.github.io/fleuriste-lautre/
